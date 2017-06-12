@@ -15,4 +15,12 @@ In the script "pag2_fcc2bcc_detection.m" you can try changing the cutoff value o
 
 In the script "pag3_merge_mcl.m" you can try changing the exponent value p to a higher value to produce smaller clusters and a more rigorous result.
 
-If you have problems, please send feedback to tuomo.nyyssonen@tut.fi.
+The orientation relationship determination algorithm in script 2 is explained in more detail here:
+
+https://link.springer.com/article/10.1007/s11661-016-3462-2
+
+The algorithm for reconstructing the parent austenite orientation map is explained here (download the document):
+
+http://urn.fi/URN:ISBN:978-952-15-3896-4
+
+If you have problems, please send feedback to tuomoknyyssonen@gmail.com.
