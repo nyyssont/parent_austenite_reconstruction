@@ -10,7 +10,7 @@ symmetry1_string = symmetries{1}.mineral;
 fcc2bcc_KS = (orientation('map',Miller(1,1,1,symmetries{2}),Miller(0,1,1,symmetries{1}),Miller(-1,0,1,symmetries{2}),Miller(-1,-1,1,symmetries{1})));
 
 % Symmetry order correction according to Morito et al.:
-cs_symmetries = symmetries{1}.properGroup;
+cs_symmetries = symmetries{1}.properGroup.rot;
 
 symrots_true(1,1) = cs_symmetries(1);
 symrots_true(2,1) = cs_symmetries(21);

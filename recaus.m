@@ -3,7 +3,7 @@ function [ebsd_aus,devis] = recaus(ebsd_aus,grains,symmetries,fcc2bcc,ib)
 %   Detailed explanation goes here
 
 % Symmetry order correction according to Morito et al.:
-cs_symmetries = symmetries{1}.properGroup;
+cs_symmetries = symmetries{1}.properGroup.rot;
 
 symrots_true(1,1) = cs_symmetries(1);
 symrots_true(2,1) = cs_symmetries(21);
